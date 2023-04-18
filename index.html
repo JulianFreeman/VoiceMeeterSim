@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoiceMeeter Sim</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsPlumb/2.9.3/js/jsplumb.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <div id="out" class="side">
+            <div id="out-int" class="interaction"></div>
+            <div class="button-area">
+                <div id="out-but" class="button">
+                    <input type="text" value="Output">
+                </div>
+            </div>
+        </div>
+        <div id="vm">
+            <div id="interface">
+                <div id="inf-in">
+                    <ul class="inf">
+                        <li>H1</li>
+                        <li>H2</li>
+                        <li>H3</li>
+                        <li>V1</li>
+                        <li>V2</li>
+                    </ul>
+                </div>
+                <div id="inf-out">
+                    <ul class="inf">
+                        <li>A1</li>
+                        <li>A2</li>
+                        <li>A3</li>
+                        <li>B1</li>
+                        <li>B2</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="in" class="side">
+            <div id="in-int" class="interaction"></div>
+            <div class="button-area">
+                <div id="in-but" class="button">
+                    <input type="text" value="Input">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

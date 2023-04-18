@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.window {
+    z-index: 20;
+}
+
+.jtk-connector {
+    z-index: 4;
+}
+
+.jtk-endpoint {
+    z-index: 5;
+}
+
+.jtk-overlay {
+    z-index: 6;
+}
+
+#main {
+    background: ivory;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.side {
+    width: 30%;
+    height: 500px;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#out-int {
+    background: rgb(245, 224, 108);
+}
+
+#in-int {
+    background: rgb(96, 241, 241);
+}
+
+.interaction {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 8px;
+    border: 2px solid rebeccapurple;
+    border-radius: 5px;
+}
+
+.button-area {
+    background: bisque;
+    width: 100%;
+    height: 15%;
+    border: 2px solid rebeccapurple;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    background: ivory;
+}
+
+.button {
+    background: ivory;
+    border: 2px solid royalblue;
+    border-radius: 5px;
+    width: 120px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+}
+
+#vm {
+    background: ivory;
+    width: 40%;
+    height: 100%;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#interface {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rebeccapurple;
+    border-radius: 5px;
+}
+
+.inf li {
+    border: 2px solid royalblue;
+    margin: 30px 20px;
+    padding: 5px 40px;
+    border-radius: 5px;
+}
+
+.inf {
+    list-style: none;
+}
